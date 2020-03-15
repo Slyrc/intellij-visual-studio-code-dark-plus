@@ -1,40 +1,38 @@
 <scheme name="Visual Studio Code Dark Plus" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2019-07-05T16:51:16</property>
-    <property name="ide">Idea</property>
-    <property name="ideVersion">2019.1.2.0.0</property>
-    <property name="modified">2020-02-05T15:58:12</property>
-    <property name="originalScheme">Visual Studio Code Dark Plus</property>
+    <property name="created">2020-03-15T11:50:23</property>
+    <property name="ide">PhpStorm</property>
+    <property name="ideVersion">2019.3.3.0.0</property>
+    <property name="modified">2020-03-15T11:50:29</property>
+    <property name="originalScheme">_@user_Visual Studio Code Dark Plus</property>
   </metaInfo>
   <colors>
     <option name="CARET_COLOR" value="adaeac" />
     <option name="CARET_ROW_COLOR" value="262626" />
     <option name="GUTTER_BACKGROUND" value="1d1d1d" />
     <option name="INDENT_GUIDE" value="3b3b3b" />
+    <option name="LINE_NUMBERS_COLOR" value="848484" />
     <option name="RIGHT_MARGIN_COLOR" value="3b3b3b" />
     <option name="SELECTION_BACKGROUND" value="264e77" />
-    <option name="LINE_NUMBERS_COLOR" value="848484" />
+    <option name="ScrollBar.Mac.hoverThumbBorderColor" value="4e4e4e" />
+    <option name="ScrollBar.Mac.hoverThumbColor" value="4e4e4e" />
+    <option name="ScrollBar.Mac.hoverTrackColor" value="1d1d1d" />
+    <option name="ScrollBar.Mac.thumbBorderColor" value="414141" />
+    <option name="ScrollBar.Mac.thumbColor" value="414141" />
+    <option name="ScrollBar.Mac.trackColor" value="1d1d1d" />
+    <option name="ScrollBar.Transparent.hoverThumbBorderColor" value="4e4e4e" />
+    <option name="ScrollBar.Transparent.hoverThumbColor" value="4e4e4e" />
+    <option name="ScrollBar.Transparent.hoverTrackColor" value="1d1d1d" />
+    <option name="ScrollBar.Transparent.thumbBorderColor" value="414141" />
+    <option name="ScrollBar.Transparent.thumbColor" value="414141" />
+    <option name="ScrollBar.Transparent.trackColor" value="1d1d1d" />
     <option name="VISUAL_INDENT_GUIDE" value="3b3b3b" />
-
-    <option name="ScrollBar.Mac.trackColor" value="1d1d1d"/>
-    <option name="ScrollBar.Mac.thumbColor" value="414141"/>
-    <option name="ScrollBar.Mac.thumbBorderColor" value="414141"/>
-    <option name="ScrollBar.Mac.hoverTrackColor" value="1d1d1d"/>
-    <option name="ScrollBar.Mac.hoverThumbColor" value="4e4e4e"/>
-    <option name="ScrollBar.Mac.hoverThumbBorderColor" value="4e4e4e"/>
-
-    <option name="ScrollBar.Transparent.trackColor" value="1d1d1d"/>
-    <option name="ScrollBar.Transparent.thumbColor" value="414141"/>
-    <option name="ScrollBar.Transparent.thumbBorderColor" value="414141"/>
-    <option name="ScrollBar.Transparent.hoverTrackColor" value="1d1d1d"/>
-    <option name="ScrollBar.Transparent.hoverThumbColor" value="4e4e4e"/>
-    <option name="ScrollBar.Transparent.hoverThumbBorderColor" value="4e4e4e"/>
   </colors>
   <attributes>
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
       <value />
     </option>
-    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
     <option name="BAD_CHARACTER">
       <value>
         <option name="EFFECT_COLOR" value="f44747" />
@@ -51,7 +49,6 @@
         <option name="FOREGROUND" value="dcdcaa" />
       </value>
     </option>
-    <option name="BASH.HERE_DOC" baseAttributes="DEFAULT_STRING" />
     <option name="BASH.HERE_DOC_END">
       <value>
         <option name="FOREGROUND" value="c586c0" />
@@ -62,7 +59,6 @@
         <option name="FOREGROUND" value="c586c0" />
       </value>
     </option>
-    <option name="BASH.SHEBANG" baseAttributes="BASH.LINE_COMMENT" />
     <option name="BASH.VAR_DEF">
       <value>
         <option name="FOREGROUND" value="d3d3c8" />
@@ -496,13 +492,12 @@
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value />
     </option>
-    <option name="JAVA_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="JAVA_KEYWORD" baseAttributes="" />
     <option name="JS.PARAMETER">
       <value>
         <option name="FOREGROUND" value="9cdcfe" />
       </value>
     </option>
-    <option name="KOTLIN_ANNOTATION" baseAttributes="ANNOTATION_NAME_ATTRIBUTES" />
     <option name="KOTLIN_BACKING_FIELD_VARIABLE">
       <value />
     </option>
@@ -523,8 +518,6 @@
     <option name="KOTLIN_OBJECT">
       <value />
     </option>
-    <option name="KOTLIN_PACKAGE_FUNCTION_CALL" baseAttributes="DEFAULT_STATIC_METHOD" />
-    <option name="KOTLIN_TYPE_PARAMETER" baseAttributes="TYPE_PARAMETER_NAME_ATTRIBUTES" />
     <option name="MARKDOWN_AUTO_LINK">
       <value>
         <option name="EFFECT_COLOR" value="d4d4d4" />
@@ -642,9 +635,10 @@
       </value>
     </option>
     <option name="PHP_ALIAS_REFERENCE">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="39c8b0" />
+      </value>
     </option>
-    <option name="PHP_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
     <option name="PHP_EXEC_COMMAND_ID">
       <value>
         <option name="FOREGROUND" value="cd905b" />
@@ -655,9 +649,19 @@
         <option name="FOREGROUND" value="d3d3c8" />
       </value>
     </option>
+    <option name="PHP_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="66c8ad" />
+      </value>
+    </option>
     <option name="PHP_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="94dbfd" />
+        <option name="FOREGROUND" value="a6dbff" />
+      </value>
+    </option>
+    <option name="PHP_THIS_VAR">
+      <value>
+        <option name="FOREGROUND" value="499cd5" />
       </value>
     </option>
     <option name="PHP_VAR">
@@ -665,10 +669,10 @@
         <option name="FOREGROUND" value="94dbfd" />
       </value>
     </option>
-    <option name="PROPERTIES.INVALID_STRING_ESCAPE" baseAttributes="DEFAULT_INVALID_STRING_ESCAPE" />
-    <option name="PROPERTIES.KEY" baseAttributes="DEFAULT_KEYWORD" />
-    <option name="PROPERTIES.KEY_VALUE_SEPARATOR" baseAttributes="DEFAULT_OPERATION_SIGN" />
-    <option name="PROPERTIES.VALID_STRING_ESCAPE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
+    <option name="PROPERTIES.INVALID_STRING_ESCAPE" baseAttributes="" />
+    <option name="PROPERTIES.KEY" baseAttributes="" />
+    <option name="PROPERTIES.KEY_VALUE_SEPARATOR" baseAttributes="" />
+    <option name="PROPERTIES.VALID_STRING_ESCAPE" baseAttributes="" />
     <option name="REGEXP.CHAR_CLASS">
       <value>
         <option name="FOREGROUND" value="d16969" />
@@ -708,8 +712,7 @@
     <option name="STATIC_METHOD_ATTRIBUTES">
       <value />
     </option>
-    <option name="Static method access" baseAttributes="STATIC_METHOD_ATTRIBUTES" />
-    <option name="Static property reference ID" baseAttributes="STATIC_FINAL_FIELD_ATTRIBUTES" />
+    <option name="Static method access" baseAttributes="" />
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="d4d4d4" />
